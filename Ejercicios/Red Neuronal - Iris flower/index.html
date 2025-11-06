@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+  		#fondo {
+  			padding: 2rem;
+  			font-size: 3rem;
+  			margin-left: 12rem;
+        margin-bottom: 2rem;
+        align-items: center;
+  		}
+  	</style>
+  </head>
+  <body>
+    <div id="fondo">
+      Red Neuronal - Iris flower
+    </div>
+    
+    <label for="">SepalLength: </label>
+    <input type="text" id="SepalLength" value="5.2">
+
+    <label for="">SepalWidth: </label>
+    <input type="text" id="SepalWidth" value="3.6">
+
+    <label for="">PetalLength: </label>
+    <input type="text" id="PetalLength" value="1.2">
+
+    <label for="">PetalWidth: </label>
+    <input type="text" id="PetalWidth" value="4.4">
+
+    <button id="btn-evaluar" onclick="update()">Confirmar</button>
+
+    <h3 id="resultado"></h3>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.4.5/jscolor.min.js"></script>
+	  <script src="https://unpkg.com/brain.js"></script>
+    <script src="src/script.js"></script>
+  </body>
+</html>

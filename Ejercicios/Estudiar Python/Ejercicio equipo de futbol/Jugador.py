@@ -7,6 +7,9 @@ class Jugador:
         self.dorsal = dorsal
         self.goles = goles
 
+    
+
+
     #Metodo para representar al jugador como cadena de texto
     def __str__(self):
         return f"Jugador: {self.nombre}, Posición: {self.posicion}, Número: {self.dorsal}, Goles: {self.goles}"
